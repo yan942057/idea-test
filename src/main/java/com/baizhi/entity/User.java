@@ -7,6 +7,7 @@ package com.baizhi.entity;
 public class User {
     private String id;
     private String name;
+    private String age;
 
     public User() {
         super();
@@ -17,6 +18,7 @@ public class User {
         return "User{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
+                ", age='" + age + '\'' +
                 '}';
     }
 
@@ -36,8 +38,17 @@ public class User {
         this.name = name;
     }
 
-    public User(String id, String name) {
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public User(String id, String name, String age) {
         this.id = id;
         this.name = name;
+        this.age = age;
     }
 }
