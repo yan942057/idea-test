@@ -17,4 +17,14 @@ public class ideaTest {
         int a = 20;
         System.out.println(a);
     }
+
+    public void tests() {
+        System.out.println("======");
+        System.out.println("======");
+        System.out.println("======");
+        System.out.println("======");
+        System.out.println("======");
+
+
+    }
 }
