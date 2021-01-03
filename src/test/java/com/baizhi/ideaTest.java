@@ -21,6 +21,7 @@ public class ideaTest {
         System.out.println("1111111");
         System.out.println("1111111");
         System.out.println("1111111");
+        String str ="aaaa";
     }
 
     public void tests() {
